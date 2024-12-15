@@ -1,0 +1,42 @@
+<section id="about" class="about__area pt-80 pb-120 grey-bg-7">
+  <div class="container">
+     <div class="row">
+        <div class="col-xxl-12">
+           <div class="section__title-wrapper-2 text-center mb-40">
+              <span class="section__title-pre-2">INTRODUCTION</span>
+              <h3 class="section__title-2">About me</h3>
+           </div>
+        </div>
+     </div>
+     <div class="about__counter-wrapper mb-50">
+        <div class="row gx-1 gy-1 gy-lg-0">
+           <div *ngFor="let c of counter_data" class="col-xxl-4 col-lg-4 col-md-6">
+              <div class="about__counter-item d-flex justify-content-center align-items-center" style="background-color: rgb(178, 223, 224);">
+                 <div class="about__counter-text mr-15">
+                    <h3 style="color: rgb(7, 61, 92);"><span class="purecounter">{{c.num}}</span>{{c.text}}</h3>
+                 </div>
+                 <div class="about__counter-content">
+                    <h3>{{c.title}}</h3>
+                    <p>{{c.subtitle}}</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="row justify-content-center">
+        <div class="col-xxl-8 col-xl-8 col-lg-10">
+           <div class="about__author-wrapper text-center" data-sal="slide-up" data-sal-delay="150" data-sal-duration="1000">
+              <div class="about__author-text">
+                 <p>I am a recent Information Technology graduate with skills in data collection, analysis, and database management. I developed a mobile reservation system for Anela’s Hotel & Resort, improving booking efficiency, and analyzed sales trends for Amazon to support decision-making. Proficient in Excel and experienced in using data to solve problems, I am committed to continuous learning and collaboration.</p>
+              </div>
+              <div class="about__author-info"> 
+                 <h3 class="about__author-title-2">Rechah Joy D. Ortega</h3>
+                 <div class="about__author-sign" style="position: relative; height: 100px; width: 100px; margin-left: 38.5%; margin-top: -12%;">
+                    <img src="/assets/img/about/sign.png" alt="" style="height: 300px;">
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
